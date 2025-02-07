@@ -26,7 +26,7 @@ i {
 
 .header-icons a:hover i {
   animation: translateY 0.8s infinite alternate;
-  color: #b42b2b;
+  color: rgba(187, 118, 50, 0.6352941176);
 }
 
 @keyframes translateY {
@@ -44,8 +44,8 @@ i {
 }
 
 .header-button:hover {
-  border: 1px solid #b42b2b;
-  background-color: #b42b2b;
+  border: 1px solid rgba(187, 118, 50, 0.6352941176);
+  background-color: rgba(187, 118, 50, 0.6352941176);
 }
 
 .header-logo {
@@ -67,7 +67,7 @@ i {
     font-size: 34px;
   }
   .header-logo img {
-    width: 160px;
+    width: 380px;
     margin-top: 46px;
   }
   .header-button {
@@ -88,7 +88,7 @@ i {
   content: "";
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(12, 13, 65, 0.1), #06121e), url("../assets/bg.svg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0823529412), rgba(187, 118, 50, 0.6039215686)), url("../assets/bg.svg");
   left: 0;
   top: 0;
   width: 100%;
@@ -123,7 +123,7 @@ i {
 .button-contact {
   padding: 14px 28px;
   color: #ffffff;
-  background-color: #D94140;
+  background-color: #000000;
   border: 0;
   font-size: 18px;
   font-weight: 600;
@@ -161,7 +161,7 @@ i {
   }
 }
 .about {
-  background-color: #06121e;
+  background-color: rgba(187, 118, 50, 0.6352941176);
   overflow: hidden;
   color: #ffffff;
 }
@@ -258,7 +258,7 @@ i {
 
 .haircut-info button {
   color: #ffffff;
-  background-color: #D94140;
+  background-color: #000000;
   padding: 4px 8px;
   border-radius: 4px;
   border: 0;
@@ -333,7 +333,7 @@ body {
   width: 100%;
   height: 100vh;
   position: relative;
-  background-color: #06121e;
+  background-color: rgba(187, 118, 50, 0.6352941176);
 }
 
 button {
